@@ -1,0 +1,33 @@
+{
+  "name": "food-api",
+  "version": "1.0.0",
+  "description": "小肥牛扫码点餐数据API子系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSoledadi/food-api.git"
+  },
+  "keywords": [
+    "小肥牛",
+    "xiaofeiniu",
+    "扫码",
+    "点餐",
+    "顾健昇"
+  ],
+  "author": "Zhong Jianing",
+  "license": " MIT",
+  "bugs": {
+    "url": "https://github.com/iSoledadi/food-api/issues"
+  },
+  "homepage": "https://github.com/iSoledadi/food-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
